@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101c20">
+  <meta name="description" content="Un jardín nocturno interactivo hecho enteramente con código.">
+  <title>Jardín de luz — una floración nocturna · Aldair</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="experience" id="experience">
+    <div class="grain" aria-hidden="true"></div>
+<section class="hero" aria-label="Jardín nocturno interactivo">
+      <div class="copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> UN PEQUEÑO UNIVERSO VIVO</p>
+        <h1>Donde la noche<br>se vuelve <em>flor.</em></h1>
+        <p class="intro">Cuando cae el silencio,<br>el jardín empieza a respirar.</p>
+<div class="occasion"><span class="occasion-car">↗</span><span><b>HOT WHEELS · 30 SEPTIEMBRE</b><small>EL REGALO PERFECTO PARA ÉL</small></span><span class="occasion-flame">✦</span></div>
+        <button class="bloom-button" id="bloomButton"><span>HACER FLORECER</span><span class="button-icon">↗</span></button>
+        <div class="gesture"><span class="gesture-dot"></span> ACÉRCATE Y DESCUBRE</div>
+      </div>
+      <div class="garden-wrap" id="gardenWrap">
+        <h1 class="gift-title">Feliz día de los carritos<br><span>Hot Wheels · Aldair</span></h1><div class="moon-glow" aria-hidden="true"></div>
+        <div class="moon" aria-hidden="true"><span></span></div>
+        <div class="horizon" aria-hidden="true"></div>
+        <canvas id="garden" aria-label="Flores animadas generadas por código"></canvas>
+        <div class="bouquet-tie" aria-hidden="true"></div><div class="cars-layer" aria-hidden="true"><div class="racer racer-extra racer-left extra-1"><img src="hotwheels-01.png" alt=""></div><div class="racer racer-extra racer-right extra-2"><img src="hotwheels-02.png" alt=""></div><div class="racer racer-extra racer-left extra-3"><img src="hotwheels-03.png" alt=""></div><div class="racer racer-extra racer-right extra-4"><img src="hotwheels-04.png" alt=""></div><div class="racer racer-extra racer-left extra-5"><img src="hotwheels-05.png" alt=""></div><div class="racer racer-extra racer-right extra-6"><img src="hotwheels-06.png" alt=""></div><div class="racer racer-extra racer-left extra-7"><img src="hotwheels-07.png" alt=""></div><div class="racer racer-extra racer-right extra-8"><img src="hotwheels-08.png" alt=""></div><div class="racer racer-extra racer-left extra-9"><img src="hotwheels-09.png" alt=""></div><div class="racer racer-extra racer-right extra-10"><img src="hotwheels-10.png" alt=""></div><div class="racer racer-extra racer-left extra-11"><img src="hotwheels-11.png" alt=""></div><div class="racer racer-extra racer-right extra-12"><img src="hotwheels-12.png" alt=""></div></div>
+        <div class="garden-caption"><span>01 — FLORES NOCTURNAS</span></div>
+        <div class="fireflies" aria-hidden="true"></div>
+      </div>
+    </section>
+    <button class="sound sound-toggle" id="soundToggle" type="button" aria-pressed="false"><span aria-hidden="true">♫</span><span id="soundLabel">ACTIVAR SONIDO</span></button>
+<div class="toast" id="toast" role="status" aria-live="polite">Una nueva flor despierta <span>✳</span></div>
+  </main>
+  <audio id="bgMusic" loop>
+    <source src="LATIN MAFIA, Humbe - Patadas de Ahogado.mp3" type="audio/mpeg">
+  </audio>
+  <script src="script.js?v=20260929-31"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
